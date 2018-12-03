@@ -141,18 +141,37 @@ pander(canon$scores$corr.Y.xscores)
 
 # What does this mean?
 
+In this example Y3 is the only var. that moves in the opposite direction. So Increasing the X vars will increase the Y vars however it will decrease the Y3. 
 
+
+# Redundancy 
+this is the interesting part where we see what proportion of the variance in X is explained by Y and the proportion of the variance in Y explained by X. 
+
+
+```{r}
+
+redundancy(canon)
+```
+
+# Somthimes nice plot somethimes confusing
+
+```{r}
+heplot(canon)
+```
 
 # Am I done now? 
 
 We know how the two sets of variables are correlated. And for most people that will be enough. 
 
-For those who's spiel is to "Deep Dive", " Drill Deeper", peel the onion or get more granular. There are a couple of things left for you to do to "add value". 
+For those of you who would like to "Deep Dive", " Drill Deeper", peel the onion or get more granular. There are a couple of things left for you to do to "add value". 
 
 
 We did not check if the correlations are significant. Actually quite important. 
 
-Also we do not know how much of the correlation is explained by the different cannoncial dimensions. 
+Alternative approaches? 
+
+
+
 
 
 
