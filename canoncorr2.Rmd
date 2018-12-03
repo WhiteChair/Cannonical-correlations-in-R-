@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "Cannonical correlation in R"
 output: 
   html_document: 
     theme: paper
