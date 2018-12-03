@@ -1,5 +1,10 @@
 # Cannonical-correlations-in-R-
 How to do a simple cannoncial correlation in R. 
+look @ the .doc file for a bit more info. 
+
+# great sources. 
+
+http://my.ilstu.edu/~wjschne/444/CanonicalCorrelation.html#(4)
 
 ### Assignment. 
 The dataset “paperpulp.csv” contains measurements on characteristics of pulp fibers and the paper made
